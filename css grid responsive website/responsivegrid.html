@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="responsivegrid.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet"> 
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 3;
+        }
+        .glow {
+  /* font-size: 80px; */
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="head box">
+            <h1 class="glow">Covid-19 Pandemic Awareness</h1>
+        </div>
+        <div class="box">
+            <div class="content">
+                <img src="5.png" alt="">
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptatem.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <img src="1.png" alt="">
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptatem.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <img src="2.png" alt="">
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptatem.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <img src="3.png" alt="">
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptatem.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <img src="4.png" alt="">
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptatem.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <img src="6.png" alt="">
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptatem.</p>
+            </div>
+        </div>
+        <div class="box" id="box7">
+            <div class="content">
+                <img src="7.png" alt="">
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptatem.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

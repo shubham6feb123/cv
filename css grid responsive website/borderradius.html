@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-image:linear-gradient(to bottom right, rgb(72, 255, 0), rgb(70, 121, 60), rgb(159, 76, 170));
+        }
+        .flex{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            flex-direction: column;
+        }
+        .box{
+            display: flex;
+            background-color: red;
+            border: 10px solid cyan;
+            margin: 5px;
+            width: 200px;
+            height: 200px;
+            border-top-left-radius: 122px;
+        border-top-right-radius: 122px;
+        border-bottom-left-radius: 122px;
+    border-bottom-right-radius: 122px;
+justify-content: center;
+align-items: center;
+box-shadow: 3px 3px 75px 15px cyan inset;
+border-style: double;}
+
+
+
+    </style>
+</head>
+<body>
+   <div class="flex">
+       <div class="box"><p>item 1</p></div>
+       <div class="box"><p>item 2</p></div>
+       <div class="box"><p>item 3</p></div>
+       <div class="box"><p>item 4</p></div>
+   </div> 
+</body>
+</html>
